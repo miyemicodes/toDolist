@@ -1,0 +1,117 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    color: #fff;
+    background: #090909;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #ef5903;
+}
+
+input:is(:hover,:focus){
+    outline: 2px solid #fff;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.toDoHead {
+    background:#db5203;
+    color: #fff;
+}
+
+.toDoAdd{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    padding: 10px 0;
+
+}
+
+.toDoAdd button{
+    background:#ef5903;
+    padding: 3px 25px;
+    color: #fff;
+    outline: none;
+    border: none;
+
+}
+
+.toDoContent{
+    background: #090909;
+    height: 100vh;
+}
+
+.toDoList{
+    padding: 10px 20px;
+}
+
+.toDoList li{
+    list-style:none;
+    padding: 5px 15px;
+    /*
+    border-bottom: 1px solid #392b2b;
+    */
+}
+
+.toDoList-Sub li{
+    border-bottom: 1px solid #392b2b;
+}
+
+.headSection{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
+    border: 1px solid red;
+}
+
+.toDoTask{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    place-items: center;
+    padding: 5px 0;
+    gap:2px;
+    border-bottom: 1px solid #ef5903;
+
+}
+
+.toDoTask:is(:active){
+    text-decoration: line-through;
+}
+
+.innerTime{
+    border-right: 1px solid #ef5903;
+    padding: 5px 7px;
+}
+
+.toDoTask i {
+    color: #db5203;
+}
+
+
+
+
+
+
+
+
+
+
+
+
