@@ -42,7 +42,7 @@ toDoButton.addEventListener("click", e =>{
   const textValue = toDoText.value;
 
   if (!timeValue ) {
-    alert("time is required");
+    alert("please specify the time");
     return false;
   }
 
@@ -50,6 +50,8 @@ toDoButton.addEventListener("click", e =>{
     alert("text is required");
     return false;
   }
+
+ 
 
 
  const newTask = {

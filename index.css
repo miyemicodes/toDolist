@@ -74,7 +74,7 @@ input:is(:hover,:focus){
     border-bottom: 1px solid #392b2b;
 }
 
-.headSection{
+.listSection{
     display: grid;
     grid-template-columns: 50px 1fr;
     gap: 10px;
