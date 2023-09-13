@@ -51,8 +51,6 @@ toDoButton.addEventListener("click", e =>{
     return false;
   }
 
- 
-
 
  const newTask = {
    id: new Date().getTime(), //this is to generate a unique id fr each task
@@ -67,6 +65,7 @@ toDoButton.addEventListener("click", e =>{
  toDoTime.value = "";
  toDoText.value = "";
 updateTaskToHtml();
+
 });
 
 

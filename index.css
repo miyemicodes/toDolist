@@ -91,17 +91,19 @@ input:is(:hover,:focus){
 
 }
 
-.toDoTask:is(:active){
-    text-decoration: line-through;
-}
 
 .innerTime{
     border-right: 1px solid #ef5903;
     padding: 5px 7px;
 }
 
+
+
 .toDoTask i {
+    width: 12%;
     color: #db5203;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 
